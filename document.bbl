@@ -1,0 +1,393 @@
+\begin{thebibliography}{58}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gardner et~al.(2018)Gardner, Lark, Jefferson, and
+  Davies]{gardner2018survey}
+Diane Gardner, Robert Lark, Tony Jefferson, and Robert Davies.
+\newblock A survey on problems encountered in current concrete construction and
+  the potential benefits of self-healing cementitious materials.
+\newblock \emph{Case studies in construction materials}, 8:\penalty0 238--247,
+  2018.
+
+\bibitem[Cailleux and Pollet(2009)]{cailleux2009investigations}
+E~Cailleux and V~Pollet.
+\newblock Investigations on the development of self-healing properties in
+  protective coatings for concrete and repair mortars.
+\newblock In \emph{Proceedings of the 2nd International Conference on
+  Self-Healing Materials, Chicago, IL, USA}, volume~28, 2009.
+
+\bibitem[Ramadan~Suleiman and Nehdi(2017)]{ramadan2017modeling}
+Ahmed Ramadan~Suleiman and Moncef~L Nehdi.
+\newblock Modeling self-healing of concrete using hybrid genetic
+  algorithm--artificial neural network.
+\newblock \emph{Materials}, 10\penalty0 (2):\penalty0 135, 2017.
+
+\bibitem[Tang et~al.(2015)Tang, Kardani, and Cui]{tang2015robust}
+Waiching Tang, Omid Kardani, and Hongzhi Cui.
+\newblock Robust evaluation of self-healing efficiency in cementitious
+  materials--a review.
+\newblock \emph{Construction and Building Materials}, 81:\penalty0 233--247,
+  2015.
+
+\bibitem[Edvardsen(1999)]{edvardsen1999water}
+Carola Edvardsen.
+\newblock Water permeability and autogenous healing of cracks in concrete.
+\newblock \emph{Materials Journal}, 96\penalty0 (4):\penalty0 448--454, 1999.
+
+\bibitem[Jacobsen et~al.(1995)Jacobsen, Marchand, and Hornain]{jacobsen1995sem}
+Stefan Jacobsen, Jacques Marchand, and Hugues Hornain.
+\newblock Sem observations of the microstructure of frost deteriorated and
+  self-healed concretes.
+\newblock \emph{Cement and Concrete Research}, 25\penalty0 (8):\penalty0
+  1781--1790, 1995.
+
+\bibitem[Reinhardt and Jooss(2003)]{reinhardt2003permeability}
+Hans-Wolf Reinhardt and Martin Jooss.
+\newblock Permeability and self-healing of cracked concrete as a function of
+  temperature and crack width.
+\newblock \emph{Cement and concrete research}, 33\penalty0 (7):\penalty0
+  981--985, 2003.
+
+\bibitem[{\c{S}}ahmaran and Yaman(2008)]{csahmaran2008influence}
+Mustafa {\c{S}}ahmaran and {\.I}~{\"O}zg{\"u}r Yaman.
+\newblock Influence of transverse crack width on reinforcement corrosion
+  initiation and propagation in mortar beams.
+\newblock \emph{Canadian Journal of Civil Engineering}, 35\penalty0
+  (3):\penalty0 236--245, 2008.
+
+\bibitem[Clear(1985)]{clear1985effects}
+CA~Clear.
+\newblock The effects of autogenous healing upon the leakage of water through
+  cracks in concrete.
+\newblock Technical report, 1985.
+
+\bibitem[Sahmaran et~al.(2013)Sahmaran, Yildirim, and Erdem]{sahmaran2013self}
+Mustafa Sahmaran, Gurkan Yildirim, and Tahir~K Erdem.
+\newblock Self-healing capability of cementitious composites incorporating
+  different supplementary cementitious materials.
+\newblock \emph{Cement and Concrete Composites}, 35\penalty0 (1):\penalty0
+  89--101, 2013.
+
+\bibitem[Kamada and Li(2000)]{kamada2000effects}
+Toshiro Kamada and Victor~C Li.
+\newblock The effects of surface preparation on the fracture behavior of
+  ecc/concrete repair system.
+\newblock \emph{Cement and Concrete Composites}, 22\penalty0 (6):\penalty0
+  423--431, 2000.
+
+\bibitem[Li and Kanda(1998)]{li1998innovations}
+Victor~C Li and Tetsushi Kanda.
+\newblock Innovations forum: engineered cementitious composites for structural
+  applications.
+\newblock \emph{Journal of Materials in Civil Engineering}, 10\penalty0
+  (2):\penalty0 66--69, 1998.
+
+\bibitem[{\"O}zbay et~al.(2013){\"O}zbay, {\v{S}}ahmaran, Lachemi, and
+  Y{\"u}cel]{ozbay2013self}
+Erdo{\u{g}}an {\"O}zbay, Mustafa {\v{S}}ahmaran, Mohamed Lachemi, and
+  Hasan~Erhan Y{\"u}cel.
+\newblock Self-healing of microcracks in high-volume fly-ash-incorporated
+  engineered cementitious composites.
+\newblock \emph{ACI Materials Journal}, 110\penalty0 (1), 2013.
+
+\bibitem[Wu et~al.(2012)Wu, Johannesson, and Geiker]{wu2012review}
+Min Wu, Bj{\"o}rn Johannesson, and Mette Geiker.
+\newblock A review: Self-healing in cementitious materials and engineered
+  cementitious composite as a self-healing material.
+\newblock \emph{Construction and Building Materials}, 28\penalty0 (1):\penalty0
+  571--583, 2012.
+
+\bibitem[Huang et~al.(2013)Huang, Ye, and Damidot]{huang2013characterization}
+Haoliang Huang, Guang Ye, and Denis Damidot.
+\newblock Characterization and quantification of self-healing behaviors of
+  microcracks due to further hydration in cement paste.
+\newblock \emph{Cement and Concrete Research}, 52:\penalty0 71--81, 2013.
+
+\bibitem[Suleiman et~al.(2019)Suleiman, Nelson, and
+  Nehdi]{suleiman2019visualization}
+Ahmed~R Suleiman, Andrew~J Nelson, and Moncef~L Nehdi.
+\newblock Visualization and quantification of crack self-healing in
+  cement-based materials incorporating different minerals.
+\newblock \emph{Cement and Concrete Composites}, 103:\penalty0 49--58, 2019.
+
+\bibitem[Zhou et~al.(2008)Zhou, Qian, Sierra~Beltran, Ye, Schlangen, and van
+  Breugel]{zhou2008developing}
+J~Zhou, S~Qian, MG~Sierra~Beltran, G~Ye, E~Schlangen, and K~van Breugel.
+\newblock Developing engineered cementitious composite with local materials.
+\newblock In \emph{International conference on microstructure related
+  durability of cementitious composites, Nanjing, China}, 2008.
+
+\bibitem[Li and Yang(2007)]{li2007self}
+Victor~C Li and En-Hua Yang.
+\newblock Self healing in concrete materials.
+\newblock In \emph{Self healing materials}, pages 161--193. Springer, 2007.
+
+\bibitem[Zhang et~al.(2014)Zhang, Qian, and Ma]{zhang2014investigating}
+Zhigang Zhang, Shunzhi Qian, and Hui Ma.
+\newblock Investigating mechanical properties and self-healing behavior of
+  micro-cracked ecc with different volume of fly ash.
+\newblock \emph{Construction and Building Materials}, 52:\penalty0 17--23,
+  2014.
+
+\bibitem[Yildirim et~al.(2014)Yildirim, Sahmaran, and
+  Ahmed]{yildirim2014influence}
+G{\"u}rkan Yildirim, Mustafa Sahmaran, and Hemn~Unis Ahmed.
+\newblock Influence of hydrated lime addition on the self-healing capability of
+  high-volume fly ash incorporated cementitious composites.
+\newblock \emph{Journal of Materials in Civil Engineering}, 27\penalty0
+  (6):\penalty0 04014187, 2014.
+
+\bibitem[Yang et~al.(2005)Yang, Lepech, and Li]{yang2005self}
+Y~Yang, M~Lepech, and Victor~C Li.
+\newblock Self-healing of ecc under cyclic wetting and drying.
+\newblock 2005.
+
+\bibitem[Sahmaran et~al.(2007)Sahmaran, Li, and Li]{sahmaran2007transport}
+Mustafa Sahmaran, Mo~Li, and Victor~C Li.
+\newblock Transport properties of engineered cementitious composites under
+  chloride exposure.
+\newblock \emph{ACI Materials Journal}, 104\penalty0 (6):\penalty0 604, 2007.
+
+\bibitem[Qian et~al.(2010)Qian, Zhou, and Schlangen]{qian2010influence}
+SZ~Qian, J~Zhou, and E~Schlangen.
+\newblock Influence of curing condition and precracking time on the
+  self-healing behavior of engineered cementitious composites.
+\newblock \emph{Cement and concrete composites}, 32\penalty0 (9):\penalty0
+  686--693, 2010.
+
+\bibitem[Alshihri et~al.(2009)Alshihri, Azmy, and El-Bisy]{alshihri2009neural}
+Marai~M Alshihri, Ahmed~M Azmy, and Mousa~S El-Bisy.
+\newblock Neural networks for predicting compressive strength of structural
+  light weight concrete.
+\newblock \emph{Construction and Building Materials}, 23\penalty0 (6):\penalty0
+  2214--2219, 2009.
+
+\bibitem[Gilan et~al.(2012)Gilan, Jovein, and Ramezanianpour]{gilan2012hybrid}
+Siamak~Safarzadegan Gilan, Hamed~Bahrami Jovein, and Ali~Akbar Ramezanianpour.
+\newblock Hybrid support vector regression--particle swarm optimization for
+  prediction of compressive strength and rcpt of concretes containing
+  metakaolin.
+\newblock \emph{Construction and Building Materials}, 34:\penalty0 321--329,
+  2012.
+
+\bibitem[Yan et~al.(2017)Yan, Lin, Wang, Azarmi, and
+  Sobolev]{yan2017evaluation}
+Fei Yan, Zhibin Lin, Xingyu Wang, Fardad Azarmi, and Konstantin Sobolev.
+\newblock Evaluation and prediction of bond strength of gfrp-bar reinforced
+  concrete using artificial neural network optimized with genetic algorithm.
+\newblock \emph{Composite Structures}, 161:\penalty0 441--452, 2017.
+
+\bibitem[Yaseen et~al.(2018)Yaseen, Deo, Hilal, Abd, Bueno, Salcedo-Sanz, and
+  Nehdi]{yaseen2018predicting}
+Zaher~Mundher Yaseen, Ravinesh~C Deo, Ameer Hilal, Abbas~M Abd, Laura~Cornejo
+  Bueno, Sancho Salcedo-Sanz, and Moncef~L Nehdi.
+\newblock Predicting compressive strength of lightweight foamed concrete using
+  extreme learning machine model.
+\newblock \emph{Advances in Engineering Software}, 115:\penalty0 112--125,
+  2018.
+
+\bibitem[Yan and Shi(2010)]{yan2010prediction}
+Kezhen Yan and Caijun Shi.
+\newblock Prediction of elastic modulus of normal and high strength concrete by
+  support vector machine.
+\newblock \emph{Construction and Building Materials}, 24\penalty0 (8):\penalty0
+  1479--1485, 2010.
+
+\bibitem[Chou et~al.(2014)Chou, Tsai, Pham, and Lu]{chou2014machine}
+Jui-Sheng Chou, Chih-Fong Tsai, Anh-Duc Pham, and Yu-Hsin Lu.
+\newblock Machine learning in concrete strength simulations: Multi-nation data
+  analytics.
+\newblock \emph{Construction and Building Materials}, 73:\penalty0 771--780,
+  2014.
+
+\bibitem[Reuter et~al.(2018)Reuter, Sultan, and Reischl]{reuter2018comparative}
+Uwe Reuter, Ahmad Sultan, and Dirk~S Reischl.
+\newblock A comparative study of machine learning approaches for modeling
+  concrete failure surfaces.
+\newblock \emph{Advances in Engineering Software}, 116:\penalty0 67--79, 2018.
+
+\bibitem[Sobhani et~al.(2010)Sobhani, Najimi, Pourkhorshidi, and
+  Parhizkar]{sobhani2010prediction}
+Jafar Sobhani, Meysam Najimi, Ali~Reza Pourkhorshidi, and Tayebeh Parhizkar.
+\newblock Prediction of the compressive strength of no-slump concrete: A
+  comparative study of regression, neural network and anfis models.
+\newblock \emph{Construction and Building Materials}, 24\penalty0 (5):\penalty0
+  709--718, 2010.
+
+\bibitem[Omran et~al.(2016)Omran, Chen, and Jin]{omran2016comparison}
+Behzad~Abounia Omran, Qian Chen, and Ruoyu Jin.
+\newblock Comparison of data mining techniques for predicting compressive
+  strength of environmentally friendly concrete.
+\newblock \emph{Journal of Computing in Civil Engineering}, 30\penalty0
+  (6):\penalty0 04016029, 2016.
+
+\bibitem[Mauludin and Oucif(2019)]{mauludin2019modeling}
+Luthfi~Muhammad Mauludin and Chahmi Oucif.
+\newblock Modeling of self-healing concrete: A review.
+\newblock \emph{Journal of Applied and Computational Mechanics}, 5\penalty0
+  (Special Issue: Computational Methods for Material Failure):\penalty0
+  526--539, 2019.
+
+\bibitem[Zhuang and Zhou(2019)]{zhuang2019prediction}
+Xiaoying Zhuang and Shuai Zhou.
+\newblock The prediction of self-healing capacity of bacteria-based concrete
+  using machine learning approaches.
+\newblock \emph{Computers, Materials \& Continua 59 (2019), Nr. 1}, 2019.
+
+\bibitem[Wang et~al.(2019)Wang, Moreau, Yuan, Race, and Pang]{wang2019towards}
+Wenjun Wang, Nicolette~G Moreau, Yingfang Yuan, Paul~R Race, and Wei Pang.
+\newblock Towards machine learning approaches for predicting the self-healing
+  efficiency of materials.
+\newblock \emph{Computational Materials Science}, 168:\penalty0 180--187, 2019.
+
+\bibitem[Chaitanya et~al.(2020)Chaitanya, Manikandan, Kumar, Elavenil, and
+  Vasugi]{chaitanya2020prediction}
+M~Chaitanya, P~Manikandan, V~Prem Kumar, S~Elavenil, and V~Vasugi.
+\newblock Prediction of self-healing characteristics of ggbs admixed concrete
+  using artificial neural network.
+\newblock In \emph{Journal of Physics: Conference Series}, volume 1716, page
+  012019. IOP Publishing, 2020.
+
+\bibitem[Neter et~al.(1996)Neter, Kutner, Nachtsheim, and
+  Wasserman]{neter1996applied}
+John Neter, Michael~H Kutner, Christopher~J Nachtsheim, and William Wasserman.
+\newblock \emph{Applied linear statistical models}, volume~4.
+\newblock Irwin Chicago, 1996.
+
+\bibitem[Cortes and Vapnik(1995)]{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock \emph{Machine learning}, 20\penalty0 (3):\penalty0 273--297, 1995.
+
+\bibitem[Vapnik(1999)]{vapnik1999overview}
+Vladimir~Naumovich Vapnik.
+\newblock An overview of statistical learning theory.
+\newblock \emph{IEEE transactions on neural networks}, 10\penalty0
+  (5):\penalty0 988--999, 1999.
+
+\bibitem[Juncai et~al.(2015)Juncai, Qingwen, and
+  Zhenzhong]{juncai2015prediction}
+Xu~Juncai, Ren Qingwen, and Shen Zhenzhong.
+\newblock Prediction of the strength of concrete radiation shielding based on
+  ls-svm.
+\newblock \emph{Annals of nuclear energy}, 85:\penalty0 296--300, 2015.
+
+\bibitem[Suykens and Vandewalle(1999)]{suykens1999least}
+Johan~AK Suykens and Joos Vandewalle.
+\newblock Least squares support vector machine classifiers.
+\newblock \emph{Neural processing letters}, 9\penalty0 (3):\penalty0 293--300,
+  1999.
+
+\bibitem[Li et~al.(2007)Li, Shao, and Cai]{li2007consensus}
+Yankun Li, Xueguang Shao, and Wensheng Cai.
+\newblock A consensus least squares support vector regression (ls-svr) for
+  analysis of near-infrared spectra of plant samples.
+\newblock \emph{Talanta}, 72\penalty0 (1):\penalty0 217--222, 2007.
+
+\bibitem[Fang et~al.(2008)Fang, Wang, Qi, and Zheng]{fang2008hybrid}
+SF~Fang, MP~Wang, WH~Qi, and F~Zheng.
+\newblock Hybrid genetic algorithms and support vector regression in
+  forecasting atmospheric corrosion of metallic materials.
+\newblock \emph{Computational Materials Science}, 44\penalty0 (2):\penalty0
+  647--655, 2008.
+
+\bibitem[Yuvaraj et~al.(2013)Yuvaraj, Murthy, Iyer, Sekar, and
+  Samui]{yuvaraj2013support}
+P~Yuvaraj, A~Ramachandra Murthy, Nagesh~R Iyer, SK~Sekar, and Pijush Samui.
+\newblock Support vector regression based models to predict fracture
+  characteristics of high strength and ultra high strength concrete beams.
+\newblock \emph{Engineering fracture mechanics}, 98:\penalty0 29--43, 2013.
+
+\bibitem[Smola and Sch{\"o}lkopf(2004)]{smola2004tutorial}
+Alex~J Smola and Bernhard Sch{\"o}lkopf.
+\newblock A tutorial on support vector regression.
+\newblock \emph{Statistics and computing}, 14\penalty0 (3):\penalty0 199--222,
+  2004.
+
+\bibitem[Mukherjee and Biswas(1997)]{mukherjee1997artificial}
+Abhijit Mukherjee and Sudip~Nag Biswas.
+\newblock Artificial neural networks in prediction of mechanical behavior of
+  concrete at high temperature.
+\newblock \emph{Nuclear engineering and design}, 178\penalty0 (1):\penalty0
+  1--11, 1997.
+
+\bibitem[Naderpour et~al.(2018)Naderpour, Rafiean, and
+  Fakharian]{naderpour2018compressive}
+Hosein Naderpour, Amir~Hossein Rafiean, and Pouyan Fakharian.
+\newblock Compressive strength prediction of environmentally friendly concrete
+  using artificial neural networks.
+\newblock \emph{Journal of Building Engineering}, 16:\penalty0 213--219, 2018.
+
+\bibitem[Breiman(2017)]{breiman2017classification}
+Leo Breiman.
+\newblock \emph{Classification and regression trees}.
+\newblock 2017.
+
+\bibitem[Dan and Colla(1995)]{dan1995cart}
+S~Dan and P~Colla.
+\newblock Cart: Tree-structured non-parametric data analysis.
+\newblock \emph{Salford Systems, San Diego, CA}, 1995.
+
+\bibitem[Put et~al.(2003)Put, Perrin, Questier, Coomans, Massart, and
+  Vander~Heyden]{put2003classification}
+R~Put, C~Perrin, F~Questier, D~Coomans, DL~Massart, and Y~Vander~Heyden.
+\newblock Classification and regression tree analysis for molecular descriptor
+  selection and retention prediction in chromatographic quantitative
+  structure--retention relationship studies.
+\newblock \emph{Journal of Chromatography A}, 988\penalty0 (2):\penalty0
+  261--276, 2003.
+
+\bibitem[Frosyniotis et~al.(2003)Frosyniotis, Stafylopatis, and
+  Likas]{frosyniotis2003divide}
+Dimitrios Frosyniotis, Andreas Stafylopatis, and Aristidis Likas.
+\newblock A divide-and-conquer method for multi-net classifiers.
+\newblock \emph{Pattern Analysis \& Applications}, 6\penalty0 (1):\penalty0
+  32--40, 2003.
+
+\bibitem[Dietterich(2000)]{dietterich2000ensemble}
+Thomas~G Dietterich.
+\newblock Ensemble methods in machine learning.
+\newblock In \emph{International workshop on multiple classifier systems},
+  pages 1--15. Springer, 2000.
+
+\bibitem[Breiman(1996)]{breiman1996bagging}
+Leo Breiman.
+\newblock Bagging predictors.
+\newblock \emph{Machine learning}, 24\penalty0 (2):\penalty0 123--140, 1996.
+
+\bibitem[Freund et~al.(1996)Freund, Schapire, et~al.]{freund1996experiments}
+Yoav Freund, Robert~E Schapire, et~al.
+\newblock Experiments with a new boosting algorithm.
+\newblock In \emph{Icml}, volume~96, pages 148--156. Citeseer, 1996.
+
+\bibitem[Raschka(2018)]{raschkas_2018_mlxtend}
+Sebastian Raschka.
+\newblock Mlxtend: Providing machine learning and data science utilities and
+  extensions to python’s scientific computing stack.
+\newblock \emph{The Journal of Open Source Software}, 3\penalty0 (24), 2018.
+\newblock \doi{10.21105/joss.00638}.
+\newblock URL \url{http://joss.theoj.org/papers/10.21105/joss.00638}.
+
+\bibitem[Sill et~al.(2009)Sill, Tak{\'a}cs, Mackey, and Lin]{sill2009feature}
+Joseph Sill, G{\'a}bor Tak{\'a}cs, Lester Mackey, and David Lin.
+\newblock Feature-weighted linear stacking.
+\newblock \emph{arXiv preprint arXiv:0911.0460}, 2009.
+
+\bibitem[Kohavi et~al.(1995)]{kohavi1995study}
+Ron Kohavi et~al.
+\newblock A study of cross-validation and bootstrap for accuracy estimation and
+  model selection.
+\newblock In \emph{Ijcai}, volume~14, pages 1137--1145. Montreal, Canada, 1995.
+
+\bibitem[Dor and Zhou(2007)]{dor2007achieving}
+Ofer Dor and Yaoqi Zhou.
+\newblock Achieving 80\% ten-fold cross-validated accuracy for secondary
+  structure prediction by large-scale training.
+\newblock \emph{Proteins: Structure, Function, and Bioinformatics}, 66\penalty0
+  (4):\penalty0 838--845, 2007.
+
+\end{thebibliography}
