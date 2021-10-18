@@ -578,6 +578,91 @@ By combining four individual models as base estimators in AdaBoost, this study o
 % 	Where we use the abbreviations for ease of presentation, in which Bag\_LR, Bag\_SVR, Bag\_BPNN and Bag\_CRAT express generating bagging ensemble method by using LR, SVR, BPNN and CRAT as base estimators, respectively. Ada\_LR, Ada\_SVR, Ada\_BPNN and Ada\_CRAT present generating AdaBoost ensemble method by manipulating LR, SVR, BPNN and CRAT as base estimators, respectively. Stack\_LR indicates developing stacking ensemble method based on individual methods (including SVR, BPNN, and CRAT) as learning base with using LR as a meta-regressor. 
 	
 	\subsection{Prediction performance assessment}
+	Figure \ref{gbrt} and \ref{fig:st} shows the linear regressions between the observed crack widths and the ones predicted by various ML models after self-healing. The coefficient of determination $R^2$ and equation of the linear least square fit line are also shown. It has been suggested that the $R^2$ is used to interpret correlation, not accuracy \cite{khanal2018integration}. However, the higher the $R^2$, the better the prediction performance is generally expected. 
+	
+	
+	\begin{figure}[!h]
+		\centering
+		    \begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02LR.png}
+			\caption{LR}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+			\begin{subfigure}{.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02Ada_LR.png}
+		    \caption{Ada\_LR}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02Bag_LR.png}
+		    \caption{Bag\_LR}
+	    	\end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{0.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02BPNN.png}
+		    \caption{BPNN}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{0.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02Ada_BPNN.png}
+		    \caption{Ada\_BPNN}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{0.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02Bag_BPNN.png}
+		    \caption{Bag\_BPNN}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02CRAT.png}
+			\caption{CRAT}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02Ada_CRAT.png}
+			\caption{Ada\_CRAT}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02Bag_CRAT.png}
+			\caption{Bag\_CRAT}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{0.35\textwidth}
+		    \centering
+		    \includegraphics[width = \linewidth]{02SVR.png}
+		    \caption{SVR}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+	    	\begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02Ada_SVR.png}
+			\caption{Ada\_SVR}
+		    \end{subfigure}%
+		\hspace{-1.4em}
+		    \begin{subfigure}{.35\textwidth}
+			\centering
+			\includegraphics[width = \linewidth]{02Bag_SVR.png}
+			\caption{Bag\_SVR}
+	    	\end{subfigure}%
+		\hspace{-1em}
+		\caption{Linear regression of predicted and observed crack width after self-healing of ECC}\label{gbrt}
+	\end{figure}
+	\begin{figure}[!h]
+	    \centering
+	    \includegraphics[width = 0.5\linewidth]{02Stack_LR.png}
+	    \caption{Linear regression of predicted and observed crack width after self-healing of ECC for stacking ensemble model}
+	    \label{fig:st}
+	\end{figure}
 	
 	Table \ref{per} shows the average performance of individual and ensemble models. The ten-fold cross-validation results (MAE, RMSE, and $R^2$) for both individual and ensemble models and their deviation with respect to the results of LR model. 
 		\begin{table}[!h]
@@ -687,7 +772,7 @@ By combining four individual models as base estimators in AdaBoost, this study o
 	
 	\subsection{Prediction performance comparison}
 % 	\subsubsection{Comparison of MAE}
-For assessment of errors between the predicted crack width and the experimental observed crack width, a comparison of the proposed ML models     is illustrated in Figure \ref{error1} to \ref{error4}, in which the predicted crack width after self-healing by ML models and the experimental observed crack width after self-healing are presented in sub-figure (a). Error of predicted crack width over the experimental observed crack width after self-healing is displayed as the measurement index (shown in the vertical coordinate) based on the group of crack width before self-healing (shown in the horizontal coordinate) in the rest of sub-figures. Furthermore, a horizontal line located at the vertical coordinate of zero ($ y = 0$) is marked as the target line in the rest of sub-figures \cite{alshihri2009neural,yan2017evaluation}. Generally, the shorter the error bar (indicates a closer distance from the target line) demonstrates the predicted crack width is more accurate, which means the smaller or even zero error between the predicted crack width and experimental observed crack width after self-healing.
+To reveal the accuracy of the proposed ML models in self healing prediction, the variations in self-healing between the observed crack widths and the crack widths predicted by the proposed ML models are shown in Figures \ref{error1} to \ref{error4}. Figure 10a compares the observed results and the predicted results by using different individual ML models. Figures 10b-e show the variations in self-healing between the observed and the predicted crack widths by each individual ML model corresponding to their initial crack widths before self-healing. In other words, the prediction performance of models in a particular range of crack widths can be revealed. It should be noted that the horizontal line located at the vertical coordinate of zero ($ y = 0$) is considered as the target line \cite{alshihri2009neural,yan2017evaluation}. Generally, the smaller the variation (i.e. closer to the target line), the better the self healing prediction, which means the smaller or even no variation between the observed and the predicted crack widths after self-healing.
 	
 % 	preidcted value - observed value.
 		\begin{figure}[!h]
@@ -718,32 +803,28 @@ For assessment of errors between the predicted crack width and the experimental 
 	\label{error4}
 \end{figure}
 
-	It has been reported that crack width control is critical to the generation and accumulation of self-healing substances \cite{vidal2004analyzing,wang1997permeability,reinhardt2003permeability,edvardsen1999water,qiu2016coupled} that further affect the self-healing capability of ECC. In order to eliminate the influence of cracking pattern, a newly developed splitting tensile test apparatus (shown in Figure \ref{f:cr1}) was used to control crack width, length and depth, as well as the branched and accumulated crack. As shown in Table \ref{min}, and Figure \ref{error1} to \ref{error4}, the maximum crack width before self-healing is 135.47 $\mu m$ less than 150 $\mu m$, and the majority of cracks are within 100 $\mu m$. Specially, most of the cracks are less than 60 $\mu m$. 
+	It has been reported that crack width control is critical to the generation and accumulation of self-healing substances \cite{vidal2004analyzing,wang1997permeability,reinhardt2003permeability,edvardsen1999water,qiu2016coupled} that further affect the self-healing capability of ECC. In order to eliminate the influence of cracking pattern, a newly developed splitting tensile test apparatus (shown in Figure \ref{f:cr1}) was used to control crack width, length and depth, as well as the branched and accumulated crack. As shown in Table \ref{min}, and Figures \ref{error1} to \ref{error4}, the maximum crack width before self-healing was 135.47 $\mu m$ (less than 150 $\mu m$), and the majority of cracks were within 100 $\mu m$. with most of them were less than 60 $\mu m$. 
 
-    As shown in Figure \ref{error1}, the SVR model exhibited lower discreteness of error bar than other individual models. For the crack width less than 60 $\mu m$ before self-healing, the variations of the error bar of the SVR model is slightly lower than BPNN and CRAT models, while the CRAT model is slightly lower than SVR and BPNN models for the crack width between 60 and 100 $\mu m$ before self-healing. It is clear that the error bar of SVR model varies slightly around the target line, indicating that the predicted outputs are a little different from the experimental observed crack width and gather around zero for the crack width larger than 100 $\mu m$ before self-healing. Moreover, the variations of the error bar of SVR model is lower than CRAT model which is lower than BPNN model. And all three models exhibit lower error bar variation than the LR model that demonstrates substantial deviation from the target line (denoting relative larger differences between the predicted crack width and the experimental observed crack width). This is consistent with the model indicator MAE analysed in Table \ref{per}. Among the individual models, the MAE between the predicted crack width and the experimental observed crack width is 4.296 for SVR that is lower than BPNN (4.329) and CRAT (4.305) models, and all of them is lower than LR (5.012) model as shown in Table \ref{per}.
+    As shown in Figure \ref{error1}, the SVR model generally exhibited better prediction results than other individual models, while the LR model is the worst showing substantial deviation from the target line (denoting relative large differences between the observed and the predicted crack widths). For the initial crack widths less than 60 $\mu m$ before self-healing, the variations shown in SVR model are smaller than those presented in other models. However, the CRAT model showed smaller variations for the crack widths between 60 and 100 $\mu m$ compared to the SVR and BPNN models. For crack widths larger than 100 $\mu m$, the SVR model performed the best showing the smallest variations. In terms of accuracy among the individual models, SRV performed the best, followed by CRAT, BPNN and LR. This is consistent with the MAE results indicated in Table \ref{per}.
     
     	
 
 	
-    From Figure \ref{error2} and \ref{error3}, we can see that the bag\_CRAT and Ada\_CRAT models exhibited lower error derivation from the target line than other ensemble models. It is clear that the variation of error bar of bag\_CRAT and Ada\_CRAT models are limited within a shorter interval, especially for the crack width between 60 and 100 $\mu m$ before self-healing. Meanwhile, the error bar of these two ensemble models oscillated slightly than CRAT model. The MAE between the predicted crack width and the experimental observed crack width is 4.093 of bag\_CRAT and 4.207 of Ada\_CRAT. However, the variations of error bar of BPNN compared with Ada\_BPNN and bag\_BPNN, and of SVR compared with Ada\_SVR and bag\_SVR don't exhibit distinct differences. As it can be seen in Figure \ref{error4}, the variations of the error bar of stack\_LR model exhibits limited interval $[-20,20]$ while all other models shown $[-25,25]$. The MAE between the predicted crack width and the experimental observed crack width is 3.934. 
+    The performance of ensemble methods using Bagging and Adaboost are shown in Figures \ref{error2} and \ref{error3}. In general, the ensemble models  bag\_CRAT and Ada\_CRAT   exhibited lower variations in self healing results compared to other ensemble models. In particular, the variations observed in CRAT model for crack widths between 60 and 100 $\mu m$ are much smaller (Figure 10e). The MAE values (i.e. between the predicted crack width and the experimental observed crack width) for bag\_CRAT and Ada\_CRAT are 4.093 and 4.207, respectively. However, the variations among BPNN, Ada\_BPNN and bag\_BPNN are not significant. Similar variations can be found when comparing SVR with Ada\_SVR and bag\_SVR. After stacking, the variations are much reduced and in the range between -20 and 20 μm as shown in Figure \ref{error4}. The MAE value for Stack\_LR is 3.934, which is the smallest among all the ML models studied.  
     
     
-    It is known that the self-healing performance increase with the decrease in crack width \cite{herbert2013selfhealing,liu2017influence}, this may due to the fact that small cracks consume less repair products to complete self-healing processes \cite{de2018review}. That means larger crack width before self-healing potentially has larger crack width after self-healing, which usually exhibit higher error between the predicted crack width and the experimental observed crack width after self-healing. As shown in Figure \ref{error1} to \ref{error4}, all individual and ensemble models exhibit slightly oscillation around the target line for crack width less than 60 $\mu m$ before self-healing, and this oscillation increases as the crack width increases for the crack under 100 $\mu m$. For the crack width over 100 $\mu m$, LR, bag\_LR and Ada\_LR models are in line with this increasing processes, which show larger oscillation interval. However, this oscillation interval decreases for all other ML models in the group of crack width over 100 $\mu m$. 
-    
-    Thus, it can be concluded that the accuracy of the LR method is significantly improved by BPNN, CRAT and SVR methods by either using individual models or using ensemble models. And the stack\_LR model that combines multiple prediction models (BPNN, CRAT, SVR and LR) is superior to all other models shown the lowest error discreteness. 
+    It is known that smaller crack width is favourable for autogenous healing in concrete \cite{herbert2013selfhealing,liu2017influence} as small cracks consume less repair products to complete self-healing \cite{de2018review}. However, larger crack width will not heal completely or just heal partially. Therefore, higher variations in self healing results compared to the predicted results are observed. As shown in Figures \ref{error1} to \ref{error4}, the variations between the observed and predicted results increased with the increase of crack width. For the initial crack width below 20, the variations are less than XX\%, which is much lower that that observed for crack widths between 40-80 $\mu m$. For the crack width over 100 $\mu m$,the LR, bag\_LR and Ada\_LR models show much higher variations compared with other ML models. Thus, it can be concluded that ensemble methods can significantly improve the prediction accuracy of individual methods especially for smaller crack widths. Besides, the stack\_LR model that combines multiple prediction models (BPNN, CRAT, SVR and LR) is superior to all other models shown the lowest variations. 
 	
 % 	Table \ref{per} shows the average performance of ten-fold cross-validation for each model (in each row), and the performance deviation from the LR model with respect to MAE, RMSE and $R^2$, respectively. 
 	
 % 	As it can be seen, Stack\_LR is superior to all other individual or ensemble models on the basis of all three performance measures. 
 	
 % \subsubsection{Comparison of RMSE}
-	In order to assess the RMSE of ten-fold cross validation, the distribution of RMSE calculated based on the differences between the predicted crack width and experimental observed crack width after self-healing is presented graphically in Figure \ref{bar} as a boxplot. Box plot is a statistical tool that is used to 
-	depicting numerical data through their quartiles including maximum, minimum, median values of a dataset \cite{taffese2015caprm,olalusi2020machine}.The medium value is shown as the red line whitin the box. Each rectangular box indicates the interquartile range (IQR) covers the 50\% (the lower 25\% to the upper 75\% quartiles) of the RMSE data point, while the whiskers drawn up and down to the maximum and nimimum values represented 1.5 times the IQR from the RMSE data. All other points out of the whiskers range are outliers and shown as red plus sign. A mean value of RMSE equal to zero would indicate a perfect model that achieves a perfect fit between the predicted crack width and the experimental observed crack width. In general, the perfect condition almost never achieved in practice \cite{wikiRMSE}, and a lower RMSE value indicates a better prediction performance of a model. 
+	In order to assess the RMSE of ten-fold cross validation, a box plot as shown in Figure \ref{bar} is created to show the distribution of RMSE results of each ML model. The RMSE values were calculated based on the differences between the predicted and observed crack widths. Box plot is a statistical tool that is used to depicting numerical data through their quartiles including maximum, minimum, median values of a dataset \cite{taffese2015caprm,olalusi2020machine}.The medium value is shown as the red line within the box. The interquartile range (IQR) in each box covers the 50\% (the lower 25\% to the upper 75\% quartiles) of the RMSE data point, while the whiskers drawn up and down to the maximum and minimum values represent 1.5 times the IQR from the RMSE data. All other points out of the whiskers range are outliers and shown as red dots. A mean value of RMSE equals to zero would indicate that the predictions perfectly fit the observed data. However, this is almost never achieved in practice \cite{wikiRMSE}. In general, the lower RMSE value the  better the prediction performance of a model. 
    	
 	
-	Assessment of the box plot revealed that the stack\_LR has the smallest median value (6.118 shown in Table \ref{per}) and the shortest length of the IQR of all the ML models, thereby suggesting minor variation of RMSE for the stack\_LR model. In contrast, the LR and bag\_LR have the largest median value (7.680 and 7.689 shown in Table \ref{per}) and longest length of the IQR of all the ML models, thereby suggesting considerable variation of RMSE for the LR and its ensemble models. Regarding the individual models, the BPNN has the lowest median value of RMSE, the SVR model has the shortest length of the IQR but three outliers (of ten data points), and all three models have lower median RMSE value than LR. Regarding the adaBoost and bagging ensemble models, BPNN, CRAT and SVR have lower median RMSE value than LR, and the SVR has the shortest length of IQR but with outliers. 
+	Assessment of the box plot revealed that the stack\_LR model outperforms all other models because of its shortest IQR length and smallest RMSE values as shown in Figure \ref{per}. In contrast, the LR and bag\_LR models have the longest IQR length and largest RMSE values, thereby suggesting that the LR model and its ensemble methods are of low accuracy. Among the individual models, BPNN has the lowest RMSE, while SVR has the shortest IQR length but with three outliers (out of ten data points). In general, BPNN gave the most stable performance showing reasonable low RMSE values with short IQR length. 
 	
-	Therefore, it can be concluded that the stack\_LR outperforms all other models, which has the lowest median and smallest variation of RMSE, suggesting the best fit of predicted crack width and the experimental observed width. Regarding the rest of ML models, the BPNN display the most stable performance in either individual models or ensemble models with reasonable low median value and short IQR of all other models. 
 	
 	
 	\begin{figure}[!h]
@@ -751,101 +832,6 @@ For assessment of errors between the predicted crack width and the experimental 
 		\includegraphics[width=\textwidth]{boxRMSE.png}
 		\caption{Ten-fold cross validation of RMSE by proposed ML models in prediction of self-healing ability of ECC}
 		\label{bar}
-	\end{figure}
-	
-
-% \subsubsection{Comparison of $R^2$}	
-	In the following, the linear regressions of the predicted crack width and experimental observed crack width after self-healing (after 10 W/D cycles) are evaluated using $R^2$ as illustrated in Figure \ref{gbrt} and \ref{fig:st}. The coefficient of determination $R^2$ and equation of the linear least square fit line are shown in the Figure (of the form $y = ax +b$ relating predicted crack width $``y"$ after self-healing which is the dependent variable to experimental observed crack width $``x"$ after self-healing as an independent variable) indicates that the prediction output is very close to the experimental observed results. Basically, $R^2$ interpreted the correlation, not accuracy \cite{khanal2018integration}. Although a high $R^2$ value would not lead to accurate prediction of a model, the more closely the $R^2$ approaches to one, and with the slope $``a"$ of the fit line is closer to 1 and the $``y"$ intercept $``b"$ is more small, close to 0 (the fit line is more close to the target line $Y = X$), the better the prediction performance is achieved. 
-	
-	
-	\begin{figure}[!h]
-		\centering
-		    \begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02LR.png}
-			\caption{LR}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-			\begin{subfigure}{.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02Ada_LR.png}
-		    \caption{Ada\_LR}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02Bag_LR.png}
-		    \caption{Bag\_LR}
-	    	\end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{0.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02BPNN.png}
-		    \caption{BPNN}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{0.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02Ada_BPNN.png}
-		    \caption{Ada\_BPNN}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{0.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02Bag_BPNN.png}
-		    \caption{Bag\_BPNN}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02CRAT.png}
-			\caption{CRAT}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02Ada_CRAT.png}
-			\caption{Ada\_CRAT}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02Bag_CRAT.png}
-			\caption{Bag\_CRAT}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{0.35\textwidth}
-		    \centering
-		    \includegraphics[width = \linewidth]{02SVR.png}
-		    \caption{SVR}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-	    	\begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02Ada_SVR.png}
-			\caption{Ada\_SVR}
-		    \end{subfigure}%
-		\hspace{-1.4em}
-		    \begin{subfigure}{.35\textwidth}
-			\centering
-			\includegraphics[width = \linewidth]{02Bag_SVR.png}
-			\caption{Bag\_SVR}
-	    	\end{subfigure}%
-		\hspace{-1em}
-		\caption{Linear regression of predicted and observed crack width after self-healing of ECC}\label{gbrt}
-	\end{figure}
-	
-
-	
-	It can be seen from Figure \ref{gbrt}(a), for the LR model, the predicted crack width after self-healing has a reasonable performance with the coefficient $R^2$ for 0.860, and the slope $``a"$ of the fit line for 0.799 and the $``y"$ intercept $``b"$ is 3.804. Similarly, as it can be seen in Figure \ref{gbrt}(d), the BPNN model has a better performance than the LR model, which has the coefficient $R^2$ for 0.899, and the slope $``a"$ of the fit line for 0.866 and the $``y"$ intercept $``b"$ is 1.817. And as shown in Figure \ref{gbrt} (a) and (d), the predicted value of crack width after self-healing of ECC in the BPNN model adheres to the target line $Y = X$ better than the LR model, especially for the crack width over 100 $\mu m$, which further indicates the BPNN model is more accuracy and outperform the LR model. Regarding the BPNN, CRAT and SVR model, the SVR model attractively adheres to the target line for the crack width over 100 $\mu m$ after self-healing. And the CRAT model has the best fit line, while the BPNN model has the highest $R^2$ value in either individual models or ensemble models in Figure \ref{gbrt}. That means the slope $``a"$ of the fit line of CRAT model is closer to 1 than other individual models, and of the ensemble models, ada\_CRAT and bag\_CRAT, are closer to 1 than other ensemble models. And the $``y"$ intercept $``b"$ of CRAT model follows the same trends (better than other models). However, the $R^2$ of BPNN is closer to 1 than other individual models, and of ensemble models, ada\_BPNN and bag\_BPNN, are closer to 1 than other ensemble models.  
-	
-	Specifically, the Stack\_LR model has the best performance with the coefficient $R^2$ for 0.904, and has the slope $``a"$ of the fit line for 0.899 (close to 1) and the $``y"$ intercept $``b"$ is 1.579 (close to 0) as shown in Figure \ref{fig:st}. In addition, as mentioned before, Figures \ref{gbrt} and \ref{fig:st} reveal the experimental data of crack width after self-healing of ECC generated from laboratory experiments is mainly distributed between $0$ to $80 \mu m$. Whereas a few samples have a crack width over $100 \mu m$. This insufficient data may result in machine learning models being trained inadequately and reducing the prediction accuracy.  
-	
-		\begin{figure}[!h]
-	    \centering
-	    \includegraphics[width = 0.5\linewidth]{02Stack_LR.png}
-	    \caption{Linear regression of predicted and observed crack width after self-healing of ECC for stacking ensemble model}
-	    \label{fig:st}
 	\end{figure}
 	
 	
@@ -877,12 +863,13 @@ For assessment of errors between the predicted crack width and the experimental 
 	\section{Conclusions}
 	\label{con}
 	
-	This study proposed and compared several individual and ensemble ML models to predict the self-healing ability of ECC. All the proposed ML models were trained, and validated based on the experimental results from nine ECC mixtures. Based on the results, the following conclusions can be drawn.
+	In this study, several individual and ensemble ML models were proposed to predict the self-healing ability of ECC. All the models were trained and validated based on the experimental results from nine ECC mixtures. Based on the results, the following conclusions can be drawn.
 	
 	\begin{enumerate}
 	    \item Among of the individual ML model studies, the BPNN model performed the best in terms of RMSE and $R^2$.
 	    \item All ensemble methods can generally improve the prediction accuracy of individual methods, however the improvement varies. It is found that Bagging method mainly enhanced the performance of BPNN and CRAT whereas AdaBoost method brought a considerable improvement for LR and SVR models.
-	    \item Among all the ML models studies, the Stack\_LR model demonstrated great prediction on self-healing of ECC and performed the best on MAE, RMSE and $R^2$ results. 
+	    \item Among all the ML models studied, the Stack\_LR model demonstrated great prediction on self-healing of ECC and performed the best on MAE, RMSE and $R^2$ results. The assessment of the box plot also revealed that the stackLR model outperforms all other models because of its shortest IQR length and smallest RMSE values.
+	   \item  For the initial crack widths less than 60μm, the variations shown in SVR model are smaller than those presented in other models. However, the CRAT model showed smaller variations for the crack widths between 60 and 100μm compared to the SVR and BPNN models. For crack widths larger than 100μm, the SVR model performed the best showing the smallest variations. 
 	    \item The computational results indicate that the individual and ensemble methods can be used to predict the self-healing ability of ECC. However, how to choose an appropriate base learner and ensemble method is critical. To improve the performance accuracy, researchers should employ different ensemble methods to compare their effectiveness with different ML models. The proposed individual and ensemble ML models can be used to predict the self-healing properties of ECC.
 	    \item Future investigation and experimentation should be carried to extend the training dataset to include various crack width distributions and diverse influencing factors such as components, W/MC rate etc.. In addition, more research should be undertaken to optimise parameters in ML models and develop a hybrid model to improve the prediction accuracy.
 	\end{enumerate}
