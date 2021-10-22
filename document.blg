@@ -1,56 +1,22 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: document.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
 The style file: unsrtnat.bst
 Database file #1: refs.bib
-Repeated entry---line 489 of file refs.bib
+I was expecting a `,' or a `}'---line 7 of file refs.bib
+ :   pages=668
+ :            -679,
+I'm skipping whatever remains of this entry
+Repeated entry---line 601 of file refs.bib
  : @article{yan2017evaluation
  :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 621 of file refs.bib
+ : @article{reuter2018comparative
+ :                               ,
 I'm skipping whatever remains of this entry
 Warning--empty institution in clear1985effects
 Warning--empty journal in yang2005self
 Warning--can't use both volume and number fields in chaitanya2020prediction
+Warning--empty year in noauthor_as_nodate
 Warning--empty publisher in breiman2017classification
 Warning--can't use both volume and number fields in kohavi1995study
-You've used 58 entries,
-            2481 wiz_defined-function locations,
-            890 strings with 15663 characters,
-and the built_in function-call counts, 23233 in all, are:
-= -- 2008
-> -- 1168
-< -- 34
-+ -- 452
-- -- 336
-* -- 1863
-:= -- 3659
-add.period$ -- 181
-call.type$ -- 58
-change.case$ -- 115
-chr.to.int$ -- 58
-cite$ -- 63
-duplicate$ -- 1160
-empty$ -- 2139
-format.name$ -- 427
-if$ -- 4929
-int.to.chr$ -- 1
-int.to.str$ -- 59
-missing$ -- 59
-newline$ -- 300
-num.names$ -- 174
-pop$ -- 456
-preamble$ -- 1
-purify$ -- 58
-quote$ -- 0
-skip$ -- 682
-stack$ -- 0
-substring$ -- 1231
-swap$ -- 174
-text.length$ -- 10
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 400
-warning$ -- 5
-while$ -- 209
-width$ -- 0
-write$ -- 764
-(There was 1 error message)
+(There were 3 error messages)

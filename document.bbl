@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,6 +37,14 @@ Waiching Tang, Omid Kardani, and Hongzhi Cui.
 Carola Edvardsen.
 \newblock Water permeability and autogenous healing of cracks in concrete.
 \newblock \emph{Materials Journal}, 96\penalty0 (4):\penalty0 448--454, 1999.
+
+\bibitem[Tang et~al.(2016)Tang, Chen, and Wang]{tang2016selfhealing}
+Waiching Tang, Guangwei Chen, and Shanyong Wang.
+\newblock Self-healing capability of ecc incorporating with different mineral
+  additives - a review.
+\newblock In Changwen Miao, editor, \emph{Proceedings of the 3rd International
+  RILEM Conference on Microstructre Related Durability of Cementitious
+  Composites}, page 668, 2016.
 
 \bibitem[Jacobsen et~al.(1995)Jacobsen, Marchand, and Hornain]{jacobsen1995sem}
 Stefan Jacobsen, Jacques Marchand, and Hugues Hornain.
@@ -166,6 +174,12 @@ Marai~M Alshihri, Ahmed~M Azmy, and Mousa~S El-Bisy.
 \newblock \emph{Construction and Building Materials}, 23\penalty0 (6):\penalty0
   2214--2219, 2009.
 
+\bibitem[Reuter et~al.(2018)Reuter, Sultan, and Reischl]{reuter2018comparative}
+Uwe Reuter, Ahmad Sultan, and Dirk~S Reischl.
+\newblock A comparative study of machine learning approaches for modeling
+  concrete failure surfaces.
+\newblock \emph{Advances in Engineering Software}, 116:\penalty0 67--79, 2018.
+
 \bibitem[Gilan et~al.(2012)Gilan, Jovein, and Ramezanianpour]{gilan2012hybrid}
 Siamak~Safarzadegan Gilan, Hamed~Bahrami Jovein, and Ali~Akbar Ramezanianpour.
 \newblock Hybrid support vector regression--particle swarm optimization for
@@ -204,12 +218,6 @@ Jui-Sheng Chou, Chih-Fong Tsai, Anh-Duc Pham, and Yu-Hsin Lu.
 \newblock \emph{Construction and Building Materials}, 73:\penalty0 771--780,
   2014.
 
-\bibitem[Reuter et~al.(2018)Reuter, Sultan, and Reischl]{reuter2018comparative}
-Uwe Reuter, Ahmad Sultan, and Dirk~S Reischl.
-\newblock A comparative study of machine learning approaches for modeling
-  concrete failure surfaces.
-\newblock \emph{Advances in Engineering Software}, 116:\penalty0 67--79, 2018.
-
 \bibitem[Sobhani et~al.(2010)Sobhani, Najimi, Pourkhorshidi, and
   Parhizkar]{sobhani2010prediction}
 Jafar Sobhani, Meysam Najimi, Ali~Reza Pourkhorshidi, and Tayebeh Parhizkar.
@@ -232,12 +240,6 @@ Luthfi~Muhammad Mauludin and Chahmi Oucif.
   (Special Issue: Computational Methods for Material Failure):\penalty0
   526--539, 2019.
 
-\bibitem[Zhuang and Zhou(2019)]{zhuang2019prediction}
-Xiaoying Zhuang and Shuai Zhou.
-\newblock The prediction of self-healing capacity of bacteria-based concrete
-  using machine learning approaches.
-\newblock \emph{Computers, Materials \& Continua 59 (2019), Nr. 1}, 2019.
-
 \bibitem[Wang et~al.(2019)Wang, Moreau, Yuan, Race, and Pang]{wang2019towards}
 Wenjun Wang, Nicolette~G Moreau, Yingfang Yuan, Paul~R Race, and Wei Pang.
 \newblock Towards machine learning approaches for predicting the self-healing
@@ -251,6 +253,24 @@ M~Chaitanya, P~Manikandan, V~Prem Kumar, S~Elavenil, and V~Vasugi.
   using artificial neural network.
 \newblock In \emph{Journal of Physics: Conference Series}, volume 1716, page
   012019. IOP Publishing, 2020.
+
+\bibitem[Zhuang and Zhou(2019)]{zhuang2019prediction}
+Xiaoying Zhuang and Shuai Zhou.
+\newblock The prediction of self-healing capacity of bacteria-based concrete
+  using machine learning approaches.
+\newblock \emph{Computers, Materials \& Continua 59 (2019), Nr. 1}, 2019.
+
+\bibitem[noa()]{noauthor_as_nodate}
+{AS} 3972-2010 {General} purpose and blended cements.
+\newblock URL
+  \url{https://infostore.saiglobal.com/en-au/standards/as-3972-2010-122323_saig_as_as_268436/}.
+
+\bibitem[Chen(2021)]{chen2021selfhealing}
+Guangwei Chen.
+\newblock \emph{Repeatability of self-healing in ECC with various mineral
+  admixtures}.
+\newblock PhD thesis, School of Architecture and Built Environment, University
+  of Newcastle, Australia, 2021.
 
 \bibitem[Neter et~al.(1996)Neter, Kutner, Nachtsheim, and
   Wasserman]{neter1996applied}
@@ -287,13 +307,6 @@ Yankun Li, Xueguang Shao, and Wensheng Cai.
 \newblock A consensus least squares support vector regression (ls-svr) for
   analysis of near-infrared spectra of plant samples.
 \newblock \emph{Talanta}, 72\penalty0 (1):\penalty0 217--222, 2007.
-
-\bibitem[Fang et~al.(2008)Fang, Wang, Qi, and Zheng]{fang2008hybrid}
-SF~Fang, MP~Wang, WH~Qi, and F~Zheng.
-\newblock Hybrid genetic algorithms and support vector regression in
-  forecasting atmospheric corrosion of metallic materials.
-\newblock \emph{Computational Materials Science}, 44\penalty0 (2):\penalty0
-  647--655, 2008.
 
 \bibitem[Yuvaraj et~al.(2013)Yuvaraj, Murthy, Iyer, Sekar, and
   Samui]{yuvaraj2013support}
@@ -389,5 +402,67 @@ Ofer Dor and Yaoqi Zhou.
   structure prediction by large-scale training.
 \newblock \emph{Proteins: Structure, Function, and Bioinformatics}, 66\penalty0
   (4):\penalty0 838--845, 2007.
+
+\bibitem[Vidal et~al.(2004)Vidal, Castel, and
+  Fran{\c{c}}ois]{vidal2004analyzing}
+Thierry Vidal, Arnaud Castel, and Raoul Fran{\c{c}}ois.
+\newblock Analyzing crack width to predict corrosion in reinforced concrete.
+\newblock \emph{Cement and concrete research}, 34\penalty0 (1):\penalty0
+  165--174, 2004.
+
+\bibitem[Wang et~al.(1997)Wang, Jansen, Shah, and Karr]{wang1997permeability}
+Kejin Wang, Daniel~C Jansen, Surendra~P Shah, and Alan~F Karr.
+\newblock Permeability study of cracked concrete.
+\newblock \emph{Cement and concrete research}, 27\penalty0 (3):\penalty0
+  381--393, 1997.
+
+\bibitem[Qiu et~al.(2016)Qiu, Tan, and Yang]{qiu2016coupled}
+Jishen Qiu, Han~Siang Tan, and En-Hua Yang.
+\newblock Coupled effects of crack width, slag content, and conditioning
+  alkalinity on autogenous healing of engineered cementitious composites.
+\newblock \emph{Cement and Concrete Composites}, 73:\penalty0 203--212, 2016.
+
+\bibitem[Herbert and Li(2013)]{herbert2013selfhealing}
+Emily~N. Herbert and Victor~C. Li.
+\newblock Self-{{Healing}} of {{Microcracks}} in {{Engineered Cementitious
+  Composites}} ({{ECC}}) {{Under}} a {{Natural Environment}}.
+\newblock \emph{Materials}, 6:\penalty0 2831--2845, 2013.
+\newblock \doi{10.3390/ma6072831}.
+
+\bibitem[Liu et~al.(2017)Liu, Zhang, Gu, Su, and Li]{liu2017influence}
+Hezhi Liu, Qian Zhang, Chongshi Gu, Huaizhi Su, and Victor Li.
+\newblock Influence of microcrack self-healing behavior on the permeability of
+  engineered cementitious composites.
+\newblock \emph{Cement and Concrete Composites}, 82:\penalty0 14--22, 2017.
+
+\bibitem[De~Belie et~al.(2018)De~Belie, Gruyaert, Al-Tabbaa, Antonaci, Baera,
+  Bajare, Darquennes, Davies, Ferrara, Jefferson, et~al.]{de2018review}
+Nele De~Belie, Elke Gruyaert, Abir Al-Tabbaa, Paola Antonaci, Cornelia Baera,
+  Diana Bajare, Aveline Darquennes, Robert Davies, Liberato Ferrara, Tony
+  Jefferson, et~al.
+\newblock A review of self-healing concrete for damage management of
+  structures.
+\newblock \emph{Advanced Materials Interfaces}, 5\penalty0 (17):\penalty0
+  1800074, 2018.
+
+\bibitem[Taffese et~al.(2015)Taffese, Sistonen, and Puttonen]{taffese2015caprm}
+Woubishet~Zewdu Taffese, Esko Sistonen, and Jari Puttonen.
+\newblock Caprm: Carbonation prediction model for reinforced concrete using
+  machine learning methods.
+\newblock \emph{Construction and Building Materials}, 100:\penalty0 70--82,
+  2015.
+
+\bibitem[Olalusi and Spyridis(2020)]{olalusi2020machine}
+Oladimeji~B Olalusi and Panagiotis Spyridis.
+\newblock Machine learning-based models for the concrete breakout capacity
+  prediction of single anchors in shear.
+\newblock \emph{Advances in Engineering Software}, 147:\penalty0 102832, 2020.
+
+\bibitem[contributors(2021)]{wikiRMSE}
+Wikipedia contributors.
+\newblock Root-mean-square deviation --- {W}ikipedia{,} the free encyclopedia,
+  2021.
+\newblock URL \url{https://en.wikipedia.org/wiki/Root-mean-square_deviation}.
+\newblock [Online; accessed 28-August-2021].
 
 \end{thebibliography}
