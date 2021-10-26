@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.27)  22 OCT 2021 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.27)  27 OCT 2021 03:50
 entering extended mode
 **./document.tex
 (document.tex
@@ -715,30 +715,30 @@ LaTeX Info: Redefining \\ on input line 3056.
 ) (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-3.
+7.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-3.
+7.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -774,7 +774,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Package chemgreek Info: Activating mapping `default' on line 33.
+Package chemgreek Info: Activating mapping `default' on line 37.
 
 
 *geometry* driver: auto-detecting
@@ -812,7 +812,7 @@ Package chemgreek Info: Activating mapping `default' on line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 37.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -821,37 +821,43 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (document.out) (document.out)
 \@outlinefile=\write3
 \openout3 = `document.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 5
-0.
+4.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+4.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
  [1
 
 {C:/Users/Guang/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<structure.pdf, id=190, 825.0825pt x 398.48875pt>
+<structure.pdf, id=186, 825.0825pt x 398.48875pt>
 File: structure.pdf Graphic file (type pdf)
 <use structure.pdf>
-Package pdftex.def Info: structure.pdf  used on input line 112.
+Package pdftex.def Info: structure.pdf  used on input line 114.
 (pdftex.def)             Requested size: 472.03123pt x 227.98004pt.
  [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -860,58 +866,58 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (24.04451pt too wide) in paragraph at lines 181--207
+Overfull \hbox (24.04451pt too wide) in paragraph at lines 183--209
  [][] 
  []
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 212.
+LaTeX Warning: Command \O invalid in math mode on input line 214.
 
 [4 <./structure.pdf>] [5]
-<CR2.pdf, id=239, 541.02126pt x 542.025pt>
+<CR2.pdf, id=236, 541.02126pt x 542.025pt>
 File: CR2.pdf Graphic file (type pdf)
 <use CR2.pdf>
-Package pdftex.def Info: CR2.pdf  used on input line 224.
+Package pdftex.def Info: CR2.pdf  used on input line 226.
 (pdftex.def)             Requested size: 146.32852pt x 146.59682pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./CR1.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<CR1.pdf, id=240, 187.02171pt x 184.64684pt>
+<CR1.pdf, id=237, 187.02171pt x 184.64684pt>
 File: CR1.pdf Graphic file (type pdf)
 <use CR1.pdf>
-Package pdftex.def Info: CR1.pdf  used on input line 230.
+Package pdftex.def Info: CR1.pdf  used on input line 232.
 (pdftex.def)             Requested size: 146.32852pt x 144.47192pt.
-<CR3.pdf, id=241, 483.8075pt x 483.8075pt>
+<CR3.pdf, id=238, 483.8075pt x 483.8075pt>
 File: CR3.pdf Graphic file (type pdf)
 <use CR3.pdf>
-Package pdftex.def Info: CR3.pdf  used on input line 236.
+Package pdftex.def Info: CR3.pdf  used on input line 238.
 (pdftex.def)             Requested size: 146.32852pt x 146.32454pt.
-<crack11.pdf, id=242, 398.48875pt x 542.025pt>
+<crack11.pdf, id=239, 398.48875pt x 542.025pt>
 File: crack11.pdf Graphic file (type pdf)
 <use crack11.pdf>
-Package pdftex.def Info: crack11.pdf  used on input line 250.
+Package pdftex.def Info: crack11.pdf  used on input line 252.
 (pdftex.def)             Requested size: 141.61081pt x 192.61458pt.
-<crack1.pdf, id=243, 313.17pt x 426.59375pt>
+<crack1.pdf, id=240, 313.17pt x 426.59375pt>
 File: crack1.pdf Graphic file (type pdf)
 <use crack1.pdf>
-Package pdftex.def Info: crack1.pdf  used on input line 256.
+Package pdftex.def Info: crack1.pdf  used on input line 258.
 (pdftex.def)             Requested size: 141.61081pt x 192.90274pt.
-<measurement.pdf, id=244, 654.445pt x 542.025pt>
+<measurement.pdf, id=241, 654.445pt x 542.025pt>
 File: measurement.pdf Graphic file (type pdf)
 <use measurement.pdf>
-Package pdftex.def Info: measurement.pdf  used on input line 281.
+Package pdftex.def Info: measurement.pdf  used on input line 283.
 (pdftex.def)             Requested size: 354.02342pt x 293.21019pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./CR2.pdf> <./CR1.pdf> <./CR3.pdf> <./crack11.pdf> <./crack1.pdf>]
-Underfull \hbox (badness 5548) in paragraph at lines 297--297
+Underfull \hbox (badness 5548) in paragraph at lines 299--299
 []\OT1/ptm/m/n/10.95 Number of crack
  []
 
 
-Overfull \hbox (3.80699pt too wide) in paragraph at lines 294--311
+Overfull \hbox (3.80699pt too wide) in paragraph at lines 296--313
  [][] 
  []
 
@@ -921,140 +927,138 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [7 <./measurement.pdf>] [8] [9]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 426.
+               Default added (so using `!tbp') on input line 428.
 
-<BPNN.pdf, id=378, 722.7pt x 341.275pt>
+<BPNN.pdf, id=376, 722.7pt x 341.275pt>
 File: BPNN.pdf Graphic file (type pdf)
 <use BPNN.pdf>
-Package pdftex.def Info: BPNN.pdf  used on input line 428.
+Package pdftex.def Info: BPNN.pdf  used on input line 430.
 (pdftex.def)             Requested size: 472.03123pt x 222.90405pt.
 [10]
-<CART.pdf, id=397, 557.68347pt x 355.68884pt>
+<CART.pdf, id=395, 557.68347pt x 355.68884pt>
 File: CART.pdf Graphic file (type pdf)
 <use CART.pdf>
-Package pdftex.def Info: CART.pdf  used on input line 455.
+Package pdftex.def Info: CART.pdf  used on input line 457.
 (pdftex.def)             Requested size: 354.02342pt x 225.8002pt.
  [11 <./BPNN.pdf>] [12 <./CART.pdf>]
-<SP.pdf, id=466, 341.275pt x 313.17pt>
+<SP.pdf, id=464, 341.275pt x 313.17pt>
 File: SP.pdf Graphic file (type pdf)
 <use SP.pdf>
-Package pdftex.def Info: SP.pdf  used on input line 504.
+Package pdftex.def Info: SP.pdf  used on input line 506.
 (pdftex.def)             Requested size: 354.02342pt x 324.89108pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13]
-<TC.pdf, id=482, 255.95625pt x 313.17pt>
+<TC.pdf, id=480, 255.95625pt x 313.17pt>
 File: TC.pdf Graphic file (type pdf)
 <use TC.pdf>
-Package pdftex.def Info: TC.pdf  used on input line 528.
+Package pdftex.def Info: TC.pdf  used on input line 530.
 (pdftex.def)             Requested size: 306.8374pt x 306.82803pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-38.
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [14 <./SP.pdf>]
-[15 <./TC.pdf>]
-Overfull \hbox (1.11086pt too wide) in paragraph at lines 679--679
+[14 <./SP.pdf>] [15 <./TC.pdf>]
+Overfull \hbox (1.11086pt too wide) in paragraph at lines 681--681
 []|\OT1/ptm/m/n/10 Individual 
  []
 
 
-Overfull \hbox (4.47601pt too wide) in alignment at lines 673--706
+Overfull \hbox (4.47601pt too wide) in alignment at lines 675--708
 [][][][][][][][]
  []
 
 [16]
-<MAEcircle.png, id=543, 462.528pt x 346.896pt>
+<MAEcircle.png, id=541, 462.528pt x 346.896pt>
 File: MAEcircle.png Graphic file (type png)
 <use MAEcircle.png>
-Package pdftex.def Info: MAEcircle.png  used on input line 721.
+Package pdftex.def Info: MAEcircle.png  used on input line 723.
 (pdftex.def)             Requested size: 250.17596pt x 187.63333pt.
-<RMSEcircle.png, id=545, 462.528pt x 346.896pt>
+<RMSEcircle.png, id=543, 462.528pt x 346.896pt>
 File: RMSEcircle.png Graphic file (type png)
 <use RMSEcircle.png>
-Package pdftex.def Info: RMSEcircle.png  used on input line 727.
+Package pdftex.def Info: RMSEcircle.png  used on input line 729.
 (pdftex.def)             Requested size: 250.17596pt x 187.63333pt.
-<R2circle.png, id=546, 462.528pt x 346.896pt>
+<R2circle.png, id=544, 462.528pt x 346.896pt>
 File: R2circle.png Graphic file (type png)
 <use R2circle.png>
-Package pdftex.def Info: R2circle.png  used on input line 733.
+Package pdftex.def Info: R2circle.png  used on input line 735.
 (pdftex.def)             Requested size: 250.17596pt x 187.63333pt.
  [17 <./MAEcircle.png> <./RMSEcircle.png> <./R2circle.png>]
-Overfull \hbox (4.58267pt too wide) in alignment at lines 751--764
+Overfull \hbox (4.58267pt too wide) in alignment at lines 753--766
 [][][][][][][][][][]
  []
 
-<error.png, id=563, 505.89pt x 578.16pt>
-File: error.png Graphic file (type png)
-<use error.png>
-Package pdftex.def Info: error.png  used on input line 779.
+<m1.png, id=561, 505.89pt x 578.16pt>
+File: m1.png Graphic file (type png)
+<use m1.png>
+Package pdftex.def Info: m1.png  used on input line 781.
 (pdftex.def)             Requested size: 472.03123pt x 539.4741pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<bagError.png, id=564, 505.89pt x 578.16pt>
-File: bagError.png Graphic file (type png)
-<use bagError.png>
-Package pdftex.def Info: bagError.png  used on input line 786.
+<c2.png, id=562, 505.89pt x 578.16pt>
+File: c2.png Graphic file (type png)
+<use c2.png>
+Package pdftex.def Info: c2.png  used on input line 788.
 (pdftex.def)             Requested size: 472.03123pt x 539.4741pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<AdaError.png, id=565, 505.89pt x 578.16pt>
-File: AdaError.png Graphic file (type png)
-<use AdaError.png>
-Package pdftex.def Info: AdaError.png  used on input line 793.
+<c3.png, id=563, 505.89pt x 578.16pt>
+File: c3.png Graphic file (type png)
+<use c3.png>
+Package pdftex.def Info: c3.png  used on input line 795.
 (pdftex.def)             Requested size: 472.03123pt x 539.4741pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<StackError.png, id=566, 505.89pt x 289.08pt>
-File: StackError.png Graphic file (type png)
-<use StackError.png>
-Package pdftex.def Info: StackError.png  used on input line 800.
+<c4.png, id=564, 505.89pt x 289.08pt>
+File: c4.png Graphic file (type png)
+<use c4.png>
+Package pdftex.def Info: c4.png  used on input line 802.
 (pdftex.def)             Requested size: 472.03123pt x 269.73705pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18] [19 <./error.png>] [20 <./bagError.png>] [21 <./AdaError.png>] [22 <./Stac
-kError.png>]
-<boxRMSE.png, id=634, 505.89pt x 289.08pt>
+[18] [19 <./m1.png>] [20 <./c2.png>] [21 <./c3.png>]
+<boxRMSE.png, id=613, 505.89pt x 289.08pt>
 File: boxRMSE.png Graphic file (type png)
 <use boxRMSE.png>
-Package pdftex.def Info: boxRMSE.png  used on input line 836.
+Package pdftex.def Info: boxRMSE.png  used on input line 834.
 (pdftex.def)             Requested size: 472.03123pt x 269.73705pt.
- [23 <./boxRMSE.png>] (document.bbl [24] [25]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22 <./c4.png>] [23 <./boxRMSE.png>] (document.bbl [24] [25]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [26] [27])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 900.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 900.
 
 (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 900.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 900.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: A0410880A781FE843B94D568D60E0CEC;1574.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 900.
  ) 
 Here is how much of TeX's memory you used:
- 20390 strings out of 492453
- 364929 string characters out of 3129819
- 457248 words of memory out of 3000000
- 24418 multiletter control sequences out of 15000+200000
- 557058 words of font info for 69 fonts, out of 3000000 for 9000
+ 20406 strings out of 492453
+ 364919 string characters out of 3129819
+ 457318 words of memory out of 3000000
+ 24428 multiletter control sequences out of 15000+200000
+ 561172 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,67p,1827b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,18n,67p,1807b,573s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1068,9 +1072,9 @@ TeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (28 pages, 9073592 bytes).
+Output written on document.pdf (28 pages, 9149426 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
+ 743 PDF objects out of 1000 (max. 8388607)
  164 named destinations out of 1000 (max. 500000)
  280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
